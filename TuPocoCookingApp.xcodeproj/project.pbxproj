@@ -491,6 +491,7 @@
 				1B8D1A2D1927E699003456BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B8D1A2E1927E699003456BC /* Build configuration list for PBXNativeTarget "TuPocoCookingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +500,7 @@
 				1B8D1A301927E699003456BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
