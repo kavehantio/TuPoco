@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B05FABA1927F3A1006F6797 /* ZBarSDK in Resources */ = {isa = PBXBuildFile; fileRef = 1B05FAB91927F3A1006F6797 /* ZBarSDK */; };
+		1B05FABB1927F3A1006F6797 /* ZBarSDK in Resources */ = {isa = PBXBuildFile; fileRef = 1B05FAB91927F3A1006F6797 /* ZBarSDK */; };
 		1B8D19F11927E699003456BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F01927E699003456BC /* Foundation.framework */; };
 		1B8D19F31927E699003456BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F21927E699003456BC /* CoreGraphics.framework */; };
 		1B8D19F51927E699003456BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F41927E699003456BC /* UIKit.framework */; };
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B05FAB91927F3A1006F6797 /* ZBarSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ZBarSDK; sourceTree = "<group>"; };
 		1B8D19ED1927E699003456BC /* TuPocoCookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuPocoCookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8D19F01927E699003456BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B8D19F21927E699003456BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +97,7 @@
 		1B8D19E41927E699003456BC = {
 			isa = PBXGroup;
 			children = (
+				1B05FAB91927F3A1006F6797 /* ZBarSDK */,
 				1B8D19F81927E699003456BC /* TuPocoCookingApp */,
 				1B8D1A211927E699003456BC /* TuPocoCookingAppTests */,
 				1B8D19EF1927E699003456BC /* Frameworks */,
@@ -247,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8D1A091927E699003456BC /* Main_iPad.storyboard in Resources */,
+				1B05FABA1927F3A1006F6797 /* ZBarSDK in Resources */,
 				1B8D1A141927E699003456BC /* Images.xcassets in Resources */,
 				1B8D1A061927E699003456BC /* Main_iPhone.storyboard in Resources */,
 				1B8D19FD1927E699003456BC /* InfoPlist.strings in Resources */,
@@ -257,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B05FABB1927F3A1006F6797 /* ZBarSDK in Resources */,
 				1B8D1A261927E699003456BC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
