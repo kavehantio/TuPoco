@@ -412,6 +412,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuPocoCookingApp/TuPocoCookingApp-Prefix.pch";
 				INFOPLIST_FILE = "TuPocoCookingApp/TuPocoCookingApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kaveh.noorbakhsh/Documents/Skydrive/TuPoco/TuPocoCookingApp/ZBarSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -425,6 +429,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TuPocoCookingApp/TuPocoCookingApp-Prefix.pch";
 				INFOPLIST_FILE = "TuPocoCookingApp/TuPocoCookingApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/kaveh.noorbakhsh/Documents/Skydrive/TuPoco/TuPocoCookingApp/ZBarSDK,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
