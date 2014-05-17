@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B8D19F11927E699003456BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F01927E699003456BC /* Foundation.framework */; };
+		1B8D19F31927E699003456BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F21927E699003456BC /* CoreGraphics.framework */; };
+		1B8D19F51927E699003456BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F41927E699003456BC /* UIKit.framework */; };
+		1B8D19F71927E699003456BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F61927E699003456BC /* CoreData.framework */; };
+		1B8D19FD1927E699003456BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B8D19FB1927E699003456BC /* InfoPlist.strings */; };
+		1B8D19FF1927E699003456BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D19FE1927E699003456BC /* main.m */; };
+		1B8D1A031927E699003456BC /* tpAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D1A021927E699003456BC /* tpAppDelegate.m */; };
+		1B8D1A061927E699003456BC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8D1A041927E699003456BC /* Main_iPhone.storyboard */; };
+		1B8D1A091927E699003456BC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8D1A071927E699003456BC /* Main_iPad.storyboard */; };
+		1B8D1A0C1927E699003456BC /* TuPocoCookingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D1A0A1927E699003456BC /* TuPocoCookingApp.xcdatamodeld */; };
+		1B8D1A0F1927E699003456BC /* tpMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D1A0E1927E699003456BC /* tpMasterViewController.m */; };
+		1B8D1A121927E699003456BC /* tpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D1A111927E699003456BC /* tpDetailViewController.m */; };
+		1B8D1A141927E699003456BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8D1A131927E699003456BC /* Images.xcassets */; };
+		1B8D1A1B1927E699003456BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D1A1A1927E699003456BC /* XCTest.framework */; };
+		1B8D1A1C1927E699003456BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F01927E699003456BC /* Foundation.framework */; };
+		1B8D1A1D1927E699003456BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F41927E699003456BC /* UIKit.framework */; };
+		1B8D1A1E1927E699003456BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8D19F61927E699003456BC /* CoreData.framework */; };
+		1B8D1A261927E699003456BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B8D1A241927E699003456BC /* InfoPlist.strings */; };
+		1B8D1A281927E699003456BC /* TuPocoCookingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D1A271927E699003456BC /* TuPocoCookingAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B8D1A1F1927E699003456BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B8D19E51927E699003456BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B8D19EC1927E699003456BC;
+			remoteInfo = TuPocoCookingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B8D19ED1927E699003456BC /* TuPocoCookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuPocoCookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8D19F01927E699003456BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B8D19F21927E699003456BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B8D19F41927E699003456BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B8D19F61927E699003456BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1B8D19FA1927E699003456BC /* TuPocoCookingApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuPocoCookingApp-Info.plist"; sourceTree = "<group>"; };
+		1B8D19FC1927E699003456BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B8D19FE1927E699003456BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B8D1A001927E699003456BC /* TuPocoCookingApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TuPocoCookingApp-Prefix.pch"; sourceTree = "<group>"; };
+		1B8D1A011927E699003456BC /* tpAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tpAppDelegate.h; sourceTree = "<group>"; };
+		1B8D1A021927E699003456BC /* tpAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tpAppDelegate.m; sourceTree = "<group>"; };
+		1B8D1A051927E699003456BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1B8D1A081927E699003456BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1B8D1A0B1927E699003456BC /* TuPocoCookingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TuPocoCookingApp.xcdatamodel; sourceTree = "<group>"; };
+		1B8D1A0D1927E699003456BC /* tpMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tpMasterViewController.h; sourceTree = "<group>"; };
+		1B8D1A0E1927E699003456BC /* tpMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tpMasterViewController.m; sourceTree = "<group>"; };
+		1B8D1A101927E699003456BC /* tpDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tpDetailViewController.h; sourceTree = "<group>"; };
+		1B8D1A111927E699003456BC /* tpDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tpDetailViewController.m; sourceTree = "<group>"; };
+		1B8D1A131927E699003456BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B8D1A191927E699003456BC /* TuPocoCookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuPocoCookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8D1A1A1927E699003456BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1B8D1A231927E699003456BC /* TuPocoCookingAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TuPocoCookingAppTests-Info.plist"; sourceTree = "<group>"; };
+		1B8D1A251927E699003456BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B8D1A271927E699003456BC /* TuPocoCookingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TuPocoCookingAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B8D19EA1927E699003456BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8D19F31927E699003456BC /* CoreGraphics.framework in Frameworks */,
+				1B8D19F71927E699003456BC /* CoreData.framework in Frameworks */,
+				1B8D19F51927E699003456BC /* UIKit.framework in Frameworks */,
+				1B8D19F11927E699003456BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8D1A161927E699003456BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8D1A1B1927E699003456BC /* XCTest.framework in Frameworks */,
+				1B8D1A1E1927E699003456BC /* CoreData.framework in Frameworks */,
+				1B8D1A1D1927E699003456BC /* UIKit.framework in Frameworks */,
+				1B8D1A1C1927E699003456BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B8D19E41927E699003456BC = {
+			isa = PBXGroup;
+			children = (
+				1B8D19F81927E699003456BC /* TuPocoCookingApp */,
+				1B8D1A211927E699003456BC /* TuPocoCookingAppTests */,
+				1B8D19EF1927E699003456BC /* Frameworks */,
+				1B8D19EE1927E699003456BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B8D19EE1927E699003456BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D19ED1927E699003456BC /* TuPocoCookingApp.app */,
+				1B8D1A191927E699003456BC /* TuPocoCookingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8D19EF1927E699003456BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D19F01927E699003456BC /* Foundation.framework */,
+				1B8D19F21927E699003456BC /* CoreGraphics.framework */,
+				1B8D19F41927E699003456BC /* UIKit.framework */,
+				1B8D19F61927E699003456BC /* CoreData.framework */,
+				1B8D1A1A1927E699003456BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B8D19F81927E699003456BC /* TuPocoCookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D1A011927E699003456BC /* tpAppDelegate.h */,
+				1B8D1A021927E699003456BC /* tpAppDelegate.m */,
+				1B8D1A041927E699003456BC /* Main_iPhone.storyboard */,
+				1B8D1A071927E699003456BC /* Main_iPad.storyboard */,
+				1B8D1A0D1927E699003456BC /* tpMasterViewController.h */,
+				1B8D1A0E1927E699003456BC /* tpMasterViewController.m */,
+				1B8D1A101927E699003456BC /* tpDetailViewController.h */,
+				1B8D1A111927E699003456BC /* tpDetailViewController.m */,
+				1B8D1A131927E699003456BC /* Images.xcassets */,
+				1B8D1A0A1927E699003456BC /* TuPocoCookingApp.xcdatamodeld */,
+				1B8D19F91927E699003456BC /* Supporting Files */,
+			);
+			path = TuPocoCookingApp;
+			sourceTree = "<group>";
+		};
+		1B8D19F91927E699003456BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D19FA1927E699003456BC /* TuPocoCookingApp-Info.plist */,
+				1B8D19FB1927E699003456BC /* InfoPlist.strings */,
+				1B8D19FE1927E699003456BC /* main.m */,
+				1B8D1A001927E699003456BC /* TuPocoCookingApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B8D1A211927E699003456BC /* TuPocoCookingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D1A271927E699003456BC /* TuPocoCookingAppTests.m */,
+				1B8D1A221927E699003456BC /* Supporting Files */,
+			);
+			path = TuPocoCookingAppTests;
+			sourceTree = "<group>";
+		};
+		1B8D1A221927E699003456BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D1A231927E699003456BC /* TuPocoCookingAppTests-Info.plist */,
+				1B8D1A241927E699003456BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B8D19EC1927E699003456BC /* TuPocoCookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8D1A2B1927E699003456BC /* Build configuration list for PBXNativeTarget "TuPocoCookingApp" */;
+			buildPhases = (
+				1B8D19E91927E699003456BC /* Sources */,
+				1B8D19EA1927E699003456BC /* Frameworks */,
+				1B8D19EB1927E699003456BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuPocoCookingApp;
+			productName = TuPocoCookingApp;
+			productReference = 1B8D19ED1927E699003456BC /* TuPocoCookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B8D1A181927E699003456BC /* TuPocoCookingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8D1A2E1927E699003456BC /* Build configuration list for PBXNativeTarget "TuPocoCookingAppTests" */;
+			buildPhases = (
+				1B8D1A151927E699003456BC /* Sources */,
+				1B8D1A161927E699003456BC /* Frameworks */,
+				1B8D1A171927E699003456BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B8D1A201927E699003456BC /* PBXTargetDependency */,
+			);
+			name = TuPocoCookingAppTests;
+			productName = TuPocoCookingAppTests;
+			productReference = 1B8D1A191927E699003456BC /* TuPocoCookingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B8D19E51927E699003456BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = tp;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kaveh Noorbakhsh";
+				TargetAttributes = {
+					1B8D1A181927E699003456BC = {
+						TestTargetID = 1B8D19EC1927E699003456BC;
+					};
+				};
+			};
+			buildConfigurationList = 1B8D19E81927E699003456BC /* Build configuration list for PBXProject "TuPocoCookingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B8D19E41927E699003456BC;
+			productRefGroup = 1B8D19EE1927E699003456BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B8D19EC1927E699003456BC /* TuPocoCookingApp */,
+				1B8D1A181927E699003456BC /* TuPocoCookingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B8D19EB1927E699003456BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8D1A091927E699003456BC /* Main_iPad.storyboard in Resources */,
+				1B8D1A141927E699003456BC /* Images.xcassets in Resources */,
+				1B8D1A061927E699003456BC /* Main_iPhone.storyboard in Resources */,
+				1B8D19FD1927E699003456BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8D1A171927E699003456BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8D1A261927E699003456BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B8D19E91927E699003456BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8D1A031927E699003456BC /* tpAppDelegate.m in Sources */,
+				1B8D1A121927E699003456BC /* tpDetailViewController.m in Sources */,
+				1B8D19FF1927E699003456BC /* main.m in Sources */,
+				1B8D1A0F1927E699003456BC /* tpMasterViewController.m in Sources */,
+				1B8D1A0C1927E699003456BC /* TuPocoCookingApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B8D1A151927E699003456BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8D1A281927E699003456BC /* TuPocoCookingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B8D1A201927E699003456BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B8D19EC1927E699003456BC /* TuPocoCookingApp */;
+			targetProxy = 1B8D1A1F1927E699003456BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B8D19FB1927E699003456BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8D19FC1927E699003456BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B8D1A041927E699003456BC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8D1A051927E699003456BC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1B8D1A071927E699003456BC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8D1A081927E699003456BC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1B8D1A241927E699003456BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B8D1A251927E699003456BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B8D1A291927E699003456BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B8D1A2A1927E699003456BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B8D1A2C1927E699003456BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuPocoCookingApp/TuPocoCookingApp-Prefix.pch";
+				INFOPLIST_FILE = "TuPocoCookingApp/TuPocoCookingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B8D1A2D1927E699003456BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuPocoCookingApp/TuPocoCookingApp-Prefix.pch";
+				INFOPLIST_FILE = "TuPocoCookingApp/TuPocoCookingApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B8D1A2F1927E699003456BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TuPocoCookingApp.app/TuPocoCookingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuPocoCookingApp/TuPocoCookingApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TuPocoCookingAppTests/TuPocoCookingAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1B8D1A301927E699003456BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TuPocoCookingApp.app/TuPocoCookingApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TuPocoCookingApp/TuPocoCookingApp-Prefix.pch";
+				INFOPLIST_FILE = "TuPocoCookingAppTests/TuPocoCookingAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B8D19E81927E699003456BC /* Build configuration list for PBXProject "TuPocoCookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8D1A291927E699003456BC /* Debug */,
+				1B8D1A2A1927E699003456BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8D1A2B1927E699003456BC /* Build configuration list for PBXNativeTarget "TuPocoCookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8D1A2C1927E699003456BC /* Debug */,
+				1B8D1A2D1927E699003456BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B8D1A2E1927E699003456BC /* Build configuration list for PBXNativeTarget "TuPocoCookingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B8D1A2F1927E699003456BC /* Debug */,
+				1B8D1A301927E699003456BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B8D1A0A1927E699003456BC /* TuPocoCookingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B8D1A0B1927E699003456BC /* TuPocoCookingApp.xcdatamodel */,
+			);
+			currentVersion = 1B8D1A0B1927E699003456BC /* TuPocoCookingApp.xcdatamodel */;
+			path = TuPocoCookingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B8D19E51927E699003456BC /* Project object */;
+}
